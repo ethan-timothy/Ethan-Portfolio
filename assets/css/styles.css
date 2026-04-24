@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* navigation bar */
+.nav-container nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 237, 233);
+    align-items: center;
+}
+
+.nav-container nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    align-content: center;
+    height: 80px;
+}
+
+.icons {
+    height: 80px;
+    align-content: center;
+}
+
+.icons span {
+    align-items: center;
+}
