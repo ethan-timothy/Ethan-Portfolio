@@ -137,7 +137,12 @@ li {
 }
 
 .hero-section .headshot img {
-    border-radius: 50%;
-    border: 5px blueviolet solid;
-    width: 400px;
+    width: 300px;
+}
+
+/* Responsive design */
+@media(max-width: 1125px); {
+    .hero-section .welcome h1 span {
+        display: none;
+    }
 }
